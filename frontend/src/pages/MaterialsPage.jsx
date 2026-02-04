@@ -34,20 +34,20 @@ const MaterialsPage = () => {
     { id: 7, name: 'M-Sand (Manufactured Sand)', category: 'civil', unit: 'Unit (40 cft)', brand: 'Local', image: 'https://images.pexels.com/photos/6890415/pexels-photo-6890415.jpeg?w=400' },
     { id: 8, name: 'River Sand', category: 'civil', unit: 'Unit (40 cft)', brand: 'Local', image: 'https://d.imgvision.net/lmninfra/cfbfc8d2-eb2b-4e01-b7e6-094b6abe2064-image.png?w=400' },
     // Electrical
-    { id: 9, name: 'Havells Wires (1.5 sq mm)', category: 'electrical', unit: 'Coil (90m)', brand: 'Havells', image: 'https://images.unsplash.com/photo-1648020265916-7d1d3a183a4c?w=400' },
-    { id: 10, name: 'Polycab Cables (4 sq mm)', category: 'electrical', unit: 'Coil (90m)', brand: 'Polycab', image: 'https://images.unsplash.com/photo-1678295630775-f5b1587cdfef?w=400' },
-    { id: 11, name: 'Anchor Switches & Sockets', category: 'electrical', unit: 'Set', brand: 'Anchor', image: 'https://images.unsplash.com/photo-1760886801783-e2d0522dd2c3?w=400' },
-    { id: 12, name: 'Legrand Modular Switches', category: 'electrical', unit: 'Set', brand: 'Legrand', image: 'https://images.unsplash.com/photo-1761479373576-ad4c1c5bb9af?w=400' },
+    { id: 9, name: 'Havells Wires (1.5 sq mm)', category: 'electrical', unit: 'Coil (90m)', brand: 'Havells', image: 'https://d.imgvision.net/lmninfra/515ylg2Fx4L._AC_UF1000_1000_QL80_.jpg?w=400' },
+    { id: 10, name: 'Polycab Cables (4 sq mm)', category: 'electrical', unit: 'Coil (90m)', brand: 'Polycab', image: 'https://d.imgvision.net/lmninfra/polycab-4-sq-mm-wire.jpeg?w=400' },
+    { id: 11, name: 'Anchor Switches & Sockets', category: 'electrical', unit: 'Set', brand: 'Anchor', image: 'https://d.imgvision.net/lmninfra/ROMA_CLASSIC_FLAT_BANNER_1.png?w=400' },
+    { id: 12, name: 'Legrand Modular Switches', category: 'electrical', unit: 'Set', brand: 'Legrand', image: 'https://d.imgvision.net/lmninfra/da5ae234-8f3d-4f32-a25e-117c584c37a7-image.png?w=400' },
     // Plumbing
-    { id: 13, name: 'Astral CPVC Pipes (1 inch)', category: 'plumbing', unit: 'Pipe (3m)', brand: 'Astral', image: 'https://images.unsplash.com/photo-1650246363606-a2402ec42b08?w=400' },
-    { id: 14, name: 'Supreme PVC Pipes (4 inch)', category: 'plumbing', unit: 'Pipe (6m)', brand: 'Supreme', image: 'https://images.unsplash.com/photo-1650246363606-a2402ec42b08?w=400' },
+    { id: 13, name: 'Astral CPVC Pipes (1 inch)', category: 'plumbing', unit: 'Pipe (3m)', brand: 'Astral', image: 'https://d.imgvision.net/lmninfra/77eeab2b-e920-43b8-8094-e04f0ab9013a-image.png?w=400' },
+    { id: 14, name: 'Supreme PVC Pipes (4 inch)', category: 'plumbing', unit: 'Pipe (6m)', brand: 'Supreme', image: 'https://d.imgvision.net/lmninfra/f6cb99b3-6f90-4865-af3e-addc056a6fcf-image.png?w=400' },
     { id: 15, name: 'Jaquar Bathroom Fittings', category: 'plumbing', unit: 'Set', brand: 'Jaquar', image: 'https://images.unsplash.com/photo-1644916925497-109cbd92087d?w=400' },
     { id: 16, name: 'Parryware Sanitary Ware', category: 'plumbing', unit: 'Set', brand: 'Parryware', image: 'https://images.unsplash.com/photo-1595428774862-a79ab68dbabb?w=400' },
     // Finishing
-    { id: 17, name: 'Asian Paints Royale (20L)', category: 'finishing', unit: 'Bucket', brand: 'Asian Paints', image: 'https://images.pexels.com/photos/6474340/pexels-photo-6474340.jpeg?w=400' },
-    { id: 18, name: 'Berger Weathercoat (20L)', category: 'finishing', unit: 'Bucket', brand: 'Berger', image: 'https://images.pexels.com/photos/6474196/pexels-photo-6474196.jpeg?w=400' },
-    { id: 19, name: 'Johnson Floor Tiles (2x2)', category: 'finishing', unit: 'Box (4 pcs)', brand: 'Johnson', image: 'https://images.pexels.com/photos/9423038/pexels-photo-9423038.jpeg?w=400' },
-    { id: 20, name: 'Kajaria Wall Tiles (1x2)', category: 'finishing', unit: 'Box (6 pcs)', brand: 'Kajaria', image: 'https://images.pexels.com/photos/5146920/pexels-photo-5146920.jpeg?w=400' },
+    { id: 17, name: 'Asian Paints Royale (20L)', category: 'finishing', unit: 'Bucket', brand: 'Asian Paints', image: 'https://d.imgvision.net/lmninfra/interior-walls-royale-luxury-emulsion-asian-paints.png?w=400' },
+    { id: 18, name: 'Berger Weathercoat (20L)', category: 'finishing', unit: 'Bucket', brand: 'Berger', image: 'https://d.imgvision.net/lmninfra/_berg598317_5dfb63f47943c.png?w=400' },
+    { id: 19, name: 'Johnson Floor Tiles (2x2)', category: 'finishing', unit: 'Box (4 pcs)', brand: 'Johnson', image: 'https://d.imgvision.net/lmninfra/c5cb6ce8-11d8-400c-b5f1-c7ce0639be36-image.png?w=400' },
+    { id: 20, name: 'Kajaria Wall Tiles (1x2)', category: 'finishing', unit: 'Box (6 pcs)', brand: 'Kajaria', image: 'https://d.imgvision.net/lmninfra/d01d96e9-acf1-4a76-b51c-fccc93dc9fac-image.png?w=400' },
   ];
 
   const filteredMaterials = materials.filter(material => {
