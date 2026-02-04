@@ -27,12 +27,12 @@ const MaterialsPage = () => {
     // Civil
     { id: 1, name: 'UltraTech Cement (OPC 53)', category: 'civil', unit: 'Bag (50kg)', brand: 'UltraTech', image: 'https://customer-assets.emergentagent.com/job_buildwith-lmn/artifacts/dhh703io_image.png' },
     { id: 2, name: 'ACC Cement (PPC)', category: 'civil', unit: 'Bag (50kg)', brand: 'ACC', image: 'https://customer-assets.emergentagent.com/job_buildwith-lmn/artifacts/bvj3rhud_image.png' },
-    { id: 3, name: 'TMT Steel Bars (Fe 500D)', category: 'civil', unit: 'Ton', brand: 'TATA Tiscon', image: 'https://images.unsplash.com/photo-1763771420303-0f11ccf613d1?w=400' },
-    { id: 4, name: 'JSW TMT Bars (Fe 550)', category: 'civil', unit: 'Ton', brand: 'JSW', image: 'https://images.unsplash.com/photo-1763926026024-2b294669e255?w=400' },
-    { id: 5, name: 'Red Bricks (Standard)', category: 'civil', unit: '1000 pcs', brand: 'Local', image: 'https://images.pexels.com/photos/912124/pexels-photo-912124.jpeg?w=400' },
-    { id: 6, name: 'Fly Ash Bricks', category: 'civil', unit: '1000 pcs', brand: 'Local', image: 'https://images.pexels.com/photos/207142/pexels-photo-207142.jpeg?w=400' },
+    { id: 3, name: 'TMT Steel Bars (Fe 500D)', category: 'civil', unit: 'Ton', brand: 'TATA Tiscon', image: 'https://d.imgvision.net/lmninfra/16260-699_image_0.jpg?w=400' },
+    { id: 4, name: 'JSW TMT Bars (Fe 550)', category: 'civil', unit: 'Ton', brand: 'JSW', image: 'https://d.imgvision.net/lmninfra/17532-1450_image_0.jpgw=400' },
+    { id: 5, name: 'Red Bricks (Standard)', category: 'civil', unit: '1000 pcs', brand: 'Local', image: 'https://d.imgvision.net/lmninfra/Untitled-design-26.png?w=400' },
+    { id: 6, name: 'Fly Ash Bricks', category: 'civil', unit: '1000 pcs', brand: 'Local', image: 'https://d.imgvision.net/lmninfra/reliable-highly-strong-fly-ash-bricks-for-construction-remodeling-repair-632.jpg?w=400' },
     { id: 7, name: 'M-Sand (Manufactured Sand)', category: 'civil', unit: 'Unit (40 cft)', brand: 'Local', image: 'https://images.pexels.com/photos/6890415/pexels-photo-6890415.jpeg?w=400' },
-    { id: 8, name: 'River Sand', category: 'civil', unit: 'Unit (40 cft)', brand: 'Local', image: 'https://images.pexels.com/photos/6044266/pexels-photo-6044266.jpeg?w=400' },
+    { id: 8, name: 'River Sand', category: 'civil', unit: 'Unit (40 cft)', brand: 'Local', image: 'https://d.imgvision.net/lmninfra/cfbfc8d2-eb2b-4e01-b7e6-094b6abe2064-image.png?w=400' },
     // Electrical
     { id: 9, name: 'Havells Wires (1.5 sq mm)', category: 'electrical', unit: 'Coil (90m)', brand: 'Havells', image: 'https://images.unsplash.com/photo-1648020265916-7d1d3a183a4c?w=400' },
     { id: 10, name: 'Polycab Cables (4 sq mm)', category: 'electrical', unit: 'Coil (90m)', brand: 'Polycab', image: 'https://images.unsplash.com/photo-1678295630775-f5b1587cdfef?w=400' },
