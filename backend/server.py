@@ -19,7 +19,7 @@ client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
 
 # Create the main app
-app = FastAPI(title="LMN Infra API", version="1.0.0")
+app = FastAPI(title="Infra Stores API", version="1.0.0")
 
 # Create a router with the /api prefix
 api_router = APIRouter(prefix="/api")
@@ -35,7 +35,7 @@ class QuoteRequest(BaseModel):
     email: Optional[str] = None
     material_name: Optional[str] = None
     quantity: Optional[str] = None
-    service_type: str  # materials, construction, properties, bulk, other
+    service_type: str  # materials, construction, bulk, other
     message: Optional[str] = None
     created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
@@ -81,15 +81,15 @@ class CostEstimate(BaseModel):
 @api_router.get("/")
 async def root():
     return {
-        "message": "Welcome to LMN Infra API",
-        "company": "LMN Infra Projects Pvt Ltd",
-        "tagline": "Build Smarter. Build Faster. Build with LMN."
+        "message": "Welcome to Infra Stores API",
+        "company": "Infra Stores",
+        "tagline": "Build Smarter. Build Faster. Build with Infra Stores."
     }
 
 
 @api_router.get("/health")
 async def health_check():
-    return {"status": "healthy", "service": "LMN Infra API"}
+    return {"status": "healthy", "service": "Infra Stores API"}
 
 
 # Quote Requests
@@ -190,43 +190,6 @@ async def get_materials():
     return {"materials": materials, "total": len(materials)}
 
 
-# Properties Catalog (Static data)
-@api_router.get("/properties")
-async def get_properties():
-    """Get all available properties"""
-    properties = [
-        {
-            "id": 1,
-            "name": "Shivantha Gardenia",
-            "type": "2 BHK Mega Community",
-            "location": "Near Isnapur, Pashamylaram Road, Hyderabad",
-            "price": "₹4,999/sq.ft",
-            "possession": "March 2026",
-            "rera": "P01100003054",
-            "highlights": ["18 Acres", "25+ Towers", "1,100 Flats", "100% Vastu Compliant"]
-        },
-        {
-            "id": 2,
-            "name": "Evon — Premium Residences",
-            "type": "Premium Luxury Apartments",
-            "location": "Hyderabad Prime Location",
-            "price": "Starting ₹1.59 Cr",
-            "possession": "Ready to Move",
-            "highlights": ["Premium Tower", "Luxury Apartments", "Modern Amenities"]
-        },
-        {
-            "id": 3,
-            "name": "Krishna's Arena",
-            "type": "Premium 4 BHK Green Edition",
-            "location": "Masjid Banda, Kondapur, Hyderabad",
-            "price": "Price on Request",
-            "possession": "Under Construction",
-            "highlights": ["4,000 Sq. Yards", "64 Corner Units", "Green Building"]
-        }
-    ]
-    return {"properties": properties, "total": len(properties)}
-
-
 # Delivery Zones
 @api_router.get("/delivery-zones")
 async def get_delivery_zones():
@@ -285,7 +248,7 @@ async def get_construction_packages():
                 "Architect-designed elevation",
                 "Imported premium materials",
                 "Full interior design included",
-                "300+ quality checks (LMN-QAS)",
+                "300+ quality checks (INFRA-QAS)",
                 "Dedicated project manager",
                 "Post-construction support"
             ]

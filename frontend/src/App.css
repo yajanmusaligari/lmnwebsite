@@ -11,14 +11,14 @@ html {
 }
 
 *:focus-visible {
-  outline: 2px solid #FFD700;
+  outline: 2px solid #FF4500;
   outline-offset: 2px;
 }
 
 /* Custom selection color */
 ::selection {
-  background-color: #FFD700;
-  color: #001F3F;
+  background-color: #FF4500;
+  color: #0A0A0A;
 }
 
 /* Image loading placeholder */
@@ -71,7 +71,7 @@ img:not([loading]) {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #FFD700;
+  background-color: #FF4500;
   transition: width 0.3s ease;
 }
 
@@ -81,7 +81,7 @@ img:not([loading]) {
 
 /* Gradient text */
 .text-gradient-gold {
-  background: linear-gradient(135deg, #FFD700 0%, #FFC000 100%);
+  background: linear-gradient(135deg, #FF4500 0%, #E63E00 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
