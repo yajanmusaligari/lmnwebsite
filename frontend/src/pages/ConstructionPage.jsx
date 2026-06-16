@@ -182,7 +182,7 @@ const ConstructionPage = () => {
                 <QualityItem text="Paint quality inspection" />
                 <QualityItem text="Waterproofing test" />
                 <QualityItem text="Final structure audit" />
-                <QualityItem text="Test">
+                <QualityItem text="Test"/>
               </div>
               <p className="text-gray-500 mt-6 text-sm">+ 288 more checks across all construction phases</p>
             </div>
